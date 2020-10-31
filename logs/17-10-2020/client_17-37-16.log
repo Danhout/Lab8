@@ -1,0 +1,42 @@
+WARN  | 17-10-2020 17:37:22 | client.Client - Input server ip's string: "java.io.BufferedReader@14bf9759".
+WARN  | 17-10-2020 17:37:22 | client.Client - Use default server IP: 8000.
+WARN  | 17-10-2020 17:37:22 | client.Client - Input server port's string: "java.io.BufferedReader@14bf9759".
+WARN  | 17-10-2020 17:37:22 | client.Client - Use default port: 8000.
+ERROR | 17-10-2020 17:37:22 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:37:26 | client.ClientConsole - Try authorizer user.
+WARN  | 17-10-2020 17:37:30 | client.ClientConsole - Input user's login: "daniil".
+INFO  | 17-10-2020 17:37:30 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+ERROR | 17-10-2020 17:37:30 | client.ClientConsole - IOException in command or connection.
+java.io.StreamCorruptedException: invalid stream header: 00000000
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:899) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:357) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.ObjectSocketChannel.getObject(ObjectSocketChannel.java:60) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.authorizerUser(ClientConsole.java:246) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.registerOrAuthorizerUser(ClientConsole.java:139) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.connectionToServer(ClientConsole.java:85) [classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.<init>(ClientConsole.java:68) [classes/:?]
+	at ru.itmo.s284719.client.Client.main(Client.java:144) [classes/:?]
+ERROR | 17-10-2020 17:37:30 | client.ClientConsole - Server with IP: 127.0.0.1, PORT: 8000 is unavailable.
+ERROR | 17-10-2020 17:37:30 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:37:36 | client.ClientConsole - Try authorizer user.
+WARN  | 17-10-2020 17:37:38 | client.ClientConsole - Input user's login: "password".
+INFO  | 17-10-2020 17:37:38 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+ERROR | 17-10-2020 17:37:38 | client.ClientConsole - IOException in command or connection.
+java.io.StreamCorruptedException: invalid stream header: 00000000
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:899) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:357) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.ObjectSocketChannel.getObject(ObjectSocketChannel.java:60) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.authorizerUser(ClientConsole.java:246) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.registerOrAuthorizerUser(ClientConsole.java:139) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.connectionToServer(ClientConsole.java:85) [classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.<init>(ClientConsole.java:68) [classes/:?]
+	at ru.itmo.s284719.client.Client.main(Client.java:144) [classes/:?]
+ERROR | 17-10-2020 17:37:38 | client.ClientConsole - Server with IP: 127.0.0.1, PORT: 8000 is unavailable.
+ERROR | 17-10-2020 17:37:38 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:37:40 | client.ClientConsole - Try authorizer user.
+WARN  | 17-10-2020 17:37:45 | client.ClientConsole - Input user's login: "daniil".
+INFO  | 17-10-2020 17:37:45 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:37:45 | client.ClientConsole - Login: daniil is exist.
+INFO  | 17-10-2020 17:37:45 | client.ClientConsole - Input invisibility mode for password is disabled.
+INFO  | 17-10-2020 17:37:48 | client.ClientConsole - Send user's full data to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:37:48 | client.ClientConsole - User: daniil is authorized.

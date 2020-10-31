@@ -1,0 +1,12 @@
+WARN  | 17-10-2020 17:37:50 | client.Client - Input server ip's string: "java.io.BufferedReader@14bf9759".
+WARN  | 17-10-2020 17:37:50 | client.Client - Use default server IP: 8000.
+WARN  | 17-10-2020 17:37:52 | client.Client - Input server port's string: "java.io.BufferedReader@14bf9759".
+WARN  | 17-10-2020 17:37:52 | client.Client - Use default port: 8000.
+ERROR | 17-10-2020 17:37:52 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:37:53 | client.ClientConsole - Try authorizer user.
+WARN  | 17-10-2020 17:37:55 | client.ClientConsole - Input user's login: "daniil2".
+INFO  | 17-10-2020 17:37:55 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:37:56 | client.ClientConsole - Login: daniil2 is exist.
+INFO  | 17-10-2020 17:37:56 | client.ClientConsole - Input invisibility mode for password is disabled.
+INFO  | 17-10-2020 17:37:58 | client.ClientConsole - Send user's full data to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:37:58 | client.ClientConsole - User: daniil2 is authorized.

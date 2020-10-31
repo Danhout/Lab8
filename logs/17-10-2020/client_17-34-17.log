@@ -1,0 +1,94 @@
+WARN  | 17-10-2020 17:34:25 | client.Client - Input server ip's string: "java.io.BufferedReader@14bf9759".
+WARN  | 17-10-2020 17:34:25 | client.Client - Use default server IP: 8000.
+WARN  | 17-10-2020 17:34:26 | client.Client - Input server port's string: "java.io.BufferedReader@14bf9759".
+WARN  | 17-10-2020 17:34:26 | client.Client - Use default port: 8000.
+ERROR | 17-10-2020 17:34:26 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:34:27 | client.ClientConsole - Try authorizer user.
+WARN  | 17-10-2020 17:34:28 | client.ClientConsole - Input user's login: "daniil".
+INFO  | 17-10-2020 17:34:28 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:34:28 | network.ObjectSocketChannel - Try send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:28 | network.ObjectSocketChannel - Send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:28 | network.ObjectSocketChannel - Try get object from SocketChannel: /127.0.0.1:8000.
+ERROR | 17-10-2020 17:34:29 | client.ClientConsole - IOException in command or connection.
+java.io.StreamCorruptedException: invalid stream header: 00000000
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:899) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:357) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.ObjectSocketChannel.getObject(ObjectSocketChannel.java:61) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.authorizerUser(ClientConsole.java:246) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.registerOrAuthorizerUser(ClientConsole.java:139) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.connectionToServer(ClientConsole.java:85) [classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.<init>(ClientConsole.java:68) [classes/:?]
+	at ru.itmo.s284719.client.Client.main(Client.java:144) [classes/:?]
+ERROR | 17-10-2020 17:34:29 | client.ClientConsole - Server with IP: 127.0.0.1, PORT: 8000 is unavailable.
+ERROR | 17-10-2020 17:34:29 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:34:38 | client.ClientConsole - Try authorizer user.
+WARN  | 17-10-2020 17:34:40 | client.ClientConsole - Input user's login: "daniil".
+INFO  | 17-10-2020 17:34:40 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:34:40 | network.ObjectSocketChannel - Try send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:40 | network.ObjectSocketChannel - Send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:40 | network.ObjectSocketChannel - Try get object from SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:40 | network.ObjectSocketChannel - Get object: false from SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:40 | client.ClientConsole - Login: daniil is exist.
+INFO  | 17-10-2020 17:34:40 | client.ClientConsole - Input invisibility mode for password is disabled.
+INFO  | 17-10-2020 17:34:42 | client.ClientConsole - Send user's full data to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:34:42 | network.ObjectSocketChannel - Try send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:42 | network.ObjectSocketChannel - Send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:42 | network.ObjectSocketChannel - Try get object from SocketChannel: /127.0.0.1:8000.
+ERROR | 17-10-2020 17:34:42 | client.ClientConsole - IOException in command or connection.
+java.io.StreamCorruptedException: invalid stream header: 00000000
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:899) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:357) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.ObjectSocketChannel.getObject(ObjectSocketChannel.java:61) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.authorizerUser(ClientConsole.java:287) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.registerOrAuthorizerUser(ClientConsole.java:139) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.connectionToServer(ClientConsole.java:85) [classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.<init>(ClientConsole.java:68) [classes/:?]
+	at ru.itmo.s284719.client.Client.main(Client.java:144) [classes/:?]
+ERROR | 17-10-2020 17:34:42 | client.ClientConsole - Server with IP: 127.0.0.1, PORT: 8000 is unavailable.
+ERROR | 17-10-2020 17:34:42 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 17-10-2020 17:34:45 | client.ClientConsole - Try authorizer user.
+INFO  | 17-10-2020 17:34:45 | client.ClientConsole - Input invisibility mode for password is disabled.
+INFO  | 17-10-2020 17:34:48 | client.ClientConsole - Send user's full data to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 17-10-2020 17:34:48 | network.ObjectSocketChannel - Try send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:48 | network.ObjectSocketChannel - Send object: command: null to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:48 | network.ObjectSocketChannel - Try get object from SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:48 | network.ObjectSocketChannel - Get object: true from SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:34:48 | client.ClientConsole - User: daniil is authorized.
+INFO  | 17-10-2020 17:35:22 | network.ObjectSocketChannel - Try send object: command: ru.itmo.s284719.network.commands.Info@68bbe345 to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:35:22 | network.ObjectSocketChannel - Send object: command: ru.itmo.s284719.network.commands.Info@68bbe345 to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:35:22 | network.ObjectSocketChannel - Try get object from SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:35:22 | network.ObjectSocketChannel - Get object: collectionType: PriorityQueue<SpaceMarine>, createTime: 05:34:24 17-10-2020, length: 12. from SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:35:28 | network.ObjectSocketChannel - Try send object: command: ru.itmo.s284719.network.commands.Show@5a8806ef to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:35:28 | network.ObjectSocketChannel - Send object: command: ru.itmo.s284719.network.commands.Show@5a8806ef to SocketChannel: /127.0.0.1:8000.
+INFO  | 17-10-2020 17:35:28 | network.ObjectSocketChannel - Try get object from SocketChannel: /127.0.0.1:8000.
+ERROR | 17-10-2020 17:35:29 | client.ClientConsole - IOException in command or connection.
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at ru.itmo.s284719.network.SimpleCMD.runCommand(SimpleCMD.java:97) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.connectionToServer(ClientConsole.java:89) [classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.<init>(ClientConsole.java:68) [classes/:?]
+	at ru.itmo.s284719.client.Client.main(Client.java:144) [classes/:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.SimpleCMD.runCommand(SimpleCMD.java:87) ~[classes/:?]
+	... 3 more
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2737) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream$BlockDataInputStream.readUTFBody(ObjectInputStream.java:3490) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream$BlockDataInputStream.readUTF(ObjectInputStream.java:3282) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.readString(ObjectInputStream.java:1961) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1606) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:464) ~[?:1.8.0_251]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.ObjectSocketChannel.getObject(ObjectSocketChannel.java:62) ~[classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.show(ClientConsole.java:350) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at ru.itmo.s284719.network.SimpleCMD.runCommand(SimpleCMD.java:87) ~[classes/:?]
+	... 3 more
+ERROR | 17-10-2020 17:35:29 | client.ClientConsole - Server with IP: 127.0.0.1, PORT: 8000 is unavailable.
+ERROR | 17-10-2020 17:35:29 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.

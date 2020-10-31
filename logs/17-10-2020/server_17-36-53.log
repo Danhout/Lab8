@@ -1,0 +1,80 @@
+WARN  | 17-10-2020 17:36:56 | server.Server - Input port's string: "".
+ERROR | 17-10-2020 17:36:56 | server.Server - Use default port: 8000.
+WARN  | 17-10-2020 17:37:01 | server.Server - Input login's string: "postgres".
+INFO  | 17-10-2020 17:37:01 | server.Server - Correct login's format.
+INFO  | 17-10-2020 17:37:01 | server.Server - Input invisibility mode for password is disabled.
+INFO  | 17-10-2020 17:37:02 | server.Server - Correct password's format.
+INFO  | 17-10-2020 17:37:03 | server.Server - Admin: "postgres" connect to the database.
+INFO  | 17-10-2020 17:37:03 | server.Server - The admin connect to the database.
+INFO  | 17-10-2020 17:37:04 | server.ServerConsole - Server with IP: 127.0.0.1, PORT: 8000 is created.
+INFO  | 17-10-2020 17:37:22 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33960 is connected.
+INFO  | 17-10-2020 17:37:22 | server.ServerConsole - Count of clients' connections: 1.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-2 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-3 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-4 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-5 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-6 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-7 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-8 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-9 is created for processing.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-10 is created for processing.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Client with IP: 127.0.0.1, PORT: 33960 is disconnected.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+WARN  | 17-10-2020 17:37:30 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$ClientCallable - Login: "daniil" already exist.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Thread-11 is created for sending.
+ERROR | 17-10-2020 17:37:30 | server.ServerConsole$RequestAction - Sending has a exception.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33972 is connected.
+INFO  | 17-10-2020 17:37:30 | server.ServerConsole - Count of clients' connections: 1.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-12 is created for processing.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-13 is created for processing.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-14 is created for processing.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-15 is created for processing.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-16 is created for processing.
+WARN  | 17-10-2020 17:37:38 | server.ServerConsole$ClientCallable - Get data of user: password.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$ClientCallable - Processing data of user: password.
+ERROR | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+ERROR | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Client with IP: 127.0.0.1, PORT: 33972 is disconnected.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$ClientCallable - Login: "password" isn't exist.
+ERROR | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+ERROR | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-17 is created for processing.
+ERROR | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Processing client's request has a exception.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33980 is connected.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole - Count of clients' connections: 1.
+INFO  | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Thread-18 is created for sending.
+ERROR | 17-10-2020 17:37:38 | server.ServerConsole$RequestAction - Sending has a exception.
+INFO  | 17-10-2020 17:37:45 | server.ServerConsole$RequestAction - Thread-19 is created for processing.
+WARN  | 17-10-2020 17:37:45 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 17-10-2020 17:37:45 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 17-10-2020 17:37:45 | server.ServerConsole$ClientCallable - Login: "daniil" already exist.
+INFO  | 17-10-2020 17:37:45 | server.ServerConsole$RequestAction - Thread-20 is created for processing.
+INFO  | 17-10-2020 17:37:45 | server.ServerConsole$RequestAction - Thread-21 is created for sending.
+INFO  | 17-10-2020 17:37:45 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33980.
+WARN  | 17-10-2020 17:37:48 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 17-10-2020 17:37:48 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 17-10-2020 17:37:48 | server.ServerConsole$ClientCallable - User: "daniil" authorize.
+INFO  | 17-10-2020 17:37:48 | server.ServerConsole$RequestAction - Thread-22 is created for sending.
+INFO  | 17-10-2020 17:37:48 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33980.
+INFO  | 17-10-2020 17:37:52 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33984 is connected.
+INFO  | 17-10-2020 17:37:52 | server.ServerConsole - Count of clients' connections: 2.
+INFO  | 17-10-2020 17:37:55 | server.ServerConsole$RequestAction - Thread-23 is created for processing.
+WARN  | 17-10-2020 17:37:55 | server.ServerConsole$ClientCallable - Get data of user: daniil2.
+INFO  | 17-10-2020 17:37:55 | server.ServerConsole$ClientCallable - Processing data of user: daniil2.
+INFO  | 17-10-2020 17:37:55 | server.ServerConsole$RequestAction - Thread-24 is created for processing.
+INFO  | 17-10-2020 17:37:55 | server.ServerConsole$ClientCallable - Login: "daniil2" already exist.
+INFO  | 17-10-2020 17:37:55 | server.ServerConsole$RequestAction - Thread-25 is created for sending.
+INFO  | 17-10-2020 17:37:55 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33984.
+WARN  | 17-10-2020 17:37:58 | server.ServerConsole$ClientCallable - Get data of user: daniil2.
+INFO  | 17-10-2020 17:37:58 | server.ServerConsole$ClientCallable - Processing data of user: daniil2.
+INFO  | 17-10-2020 17:37:58 | server.ServerConsole$ClientCallable - User: "daniil2" authorize.
+INFO  | 17-10-2020 17:37:58 | server.ServerConsole$RequestAction - Thread-27 is created for sending.
+INFO  | 17-10-2020 17:37:58 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33984.
+INFO  | 17-10-2020 17:37:58 | server.ServerConsole$RequestAction - Thread-26 is created for processing.

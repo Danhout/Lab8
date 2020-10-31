@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="client:jar" />
+      <artifact name="server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4b6793a-d0b5-445f-ac65-cb041803b65b" name="Default Changelist" comment="Add javadoc." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1igELiNCcU6VYRFZ4eg9GYhCHVr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="ToolWindowAnt.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/server" />
+      <recent name="$PROJECT_DIR$/src/main/resources/client" />
+      <recent name="$PROJECT_DIR$/client/target/classes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/server/src/main/java" />
+      <recent name="$PROJECT_DIR$/network/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itmo.s284719.client.Client" />
+      <module name="client" />
+      <option name="VM_PARAMETERS" value="-Dlog4j.configurationFile=file:client/src/main/resources/log4j2.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itmo.s284719.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.itmo.s284719.client.Client" />
+      <module name="client" />
+      <option name="VM_PARAMETERS" value="-Dlog4j.configurationFile=file:client/src/main/resources/log4j2.xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itmo.s284719.server.Server" />
+      <module name="server" />
+      <option name="VM_PARAMETERS" value="-Dlog4j.configurationFile=file:server/src/main/resources/log4j2.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itmo.s284719.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client2" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4b6793a-d0b5-445f-ac65-cb041803b65b" name="Default Changelist" comment="" />
+      <created>1602320780086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602320780086</updated>
+      <workItem from="1602320784758" duration="3274000" />
+      <workItem from="1602324470251" duration="1086000" />
+      <workItem from="1602325870884" duration="2849000" />
+      <workItem from="1602349497764" duration="10117000" />
+      <workItem from="1602404465770" duration="4155000" />
+      <workItem from="1602409646837" duration="3151000" />
+      <workItem from="1602413177400" duration="7081000" />
+      <workItem from="1602440556315" duration="3997000" />
+      <workItem from="1602445378726" duration="2406000" />
+      <workItem from="1602449200770" duration="8809000" />
+      <workItem from="1602477816585" duration="11332000" />
+      <workItem from="1602505053802" duration="21990000" />
+      <workItem from="1602531537418" duration="151000" />
+      <workItem from="1602532288064" duration="1387000" />
+      <workItem from="1602838886415" duration="58000" />
+      <workItem from="1602917740664" duration="17389000" />
+      <workItem from="1602936757705" duration="8733000" />
+      <workItem from="1604178052940" duration="242000" />
+      <workItem from="1604178452894" duration="382000" />
+    </task>
+    <task id="LOCAL-00001" summary="Try to adding log4j2 logging">
+      <created>1602417214758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602417214758</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Try to adding log4j2 logging">
+      <created>1602418629798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602418629798</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Try to adding log4j2 logging">
+      <created>1602418797560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602418797560</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add log4j-2 logging and change errors.">
+      <created>1602513678819</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602513678819</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add log4j-2 logging and change errors.">
+      <created>1602513901943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602513901943</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add log4j-2 logging without JVM parameters and to JRE (but in JRE need to putting directory settings/log4j2.xml)">
+      <created>1602526846184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602526846184</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add log4j-2 logging without JVM parameters and to JRE (but in JRE need to putting directory settings/log4j2.xml)">
+      <created>1602526854246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602526854246</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add log4j-2 logging without JVM parameters and to JRE (but in JRE need to putting the file log4j2.xml with configurations).">
+      <created>1602530567451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602530567451</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add log4j-2 logging without JVM parameters and to JRE (but in JRE need to putting the file log4j2.xml with configurations).">
+      <created>1602530573252</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602530573252</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add task's images and script of creation tables in database.">
+      <created>1602531665004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602531665004</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add javadoc.">
+      <created>1602534331780</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602534331780</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add javadoc.">
+      <created>1602534338050</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602534338050</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/daniil/Projects/Java/IntellijProjects/Lab7/server/src/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Try to adding log4j2 logging" />
+    <MESSAGE value="Add log4j-2 logging and change errors." />
+    <MESSAGE value="Add log4j-2 logging without JVM parameters and to JRE (but in JRE need to putting directory settings/log4j2.xml)" />
+    <MESSAGE value="Add log4j-2 logging without JVM parameters and to JRE (but in JRE need to putting the file log4j2.xml with configurations)." />
+    <MESSAGE value="Add task's images and script of creation tables in database." />
+    <MESSAGE value="Add javadoc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add javadoc." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="308" y="29" width="740" height="771" key="#Client" timestamp="1602450422269">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="308" y="29" width="740" height="771" key="#Client/72.29.1208.771@72.29.1208.771" timestamp="1602450422269" />
+    <state x="305" y="96" width="732" height="644" key="#Inspections" timestamp="1602928464095">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="305" y="96" width="732" height="644" key="#Inspections/72.29.1208.771@72.29.1208.771" timestamp="1602928464095" />
+    <state x="545" y="280" width="251" height="273" key="#Notifications" timestamp="1604178528414">
+      <screen x="72" y="27" width="1208" height="773" />
+    </state>
+    <state x="545" y="280" width="251" height="273" key="#Notifications/72.27.1208.773@72.27.1208.773" timestamp="1604178528414" />
+    <state x="72" y="266" width="1198" height="304" key="#SQL_Dialects" timestamp="1602920810518">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="72" y="266" width="1198" height="304" key="#SQL_Dialects/72.29.1208.771@72.29.1208.771" timestamp="1602920810518" />
+    <state x="308" y="29" width="740" height="771" key="#Server" timestamp="1602450284569">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="308" y="29" width="740" height="771" key="#Server/72.29.1208.771@72.29.1208.771" timestamp="1602450284569" />
+    <state x="75" y="82" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602921072041">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="75" y="82" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.29.1208.771@72.29.1208.771" timestamp="1602921072041" />
+    <state x="320" y="133" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602450382820">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="320" y="133" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog/72.29.1208.771@72.29.1208.771" timestamp="1602450382820" />
+    <state x="408" y="206" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602521315989">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="408" y="206" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.29.1208.771@72.29.1208.771" timestamp="1602521315989" />
+    <state x="208" y="339" width="954" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602444084643">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="208" y="339" width="954" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/72.29.1208.771@72.29.1208.771" timestamp="1602444084643" />
+    <state x="429" y="296" width="484" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602443433274">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="429" y="296" width="484" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/72.29.1208.771@72.29.1208.771" timestamp="1602443433274" />
+    <state x="406" y="140" width="530" height="555" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602534279808">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="406" y="140" width="530" height="555" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/72.29.1208.771@72.29.1208.771" timestamp="1602534279808" />
+    <state x="172" y="129" width="1008" height="571" key="DiffContextDialog" timestamp="1602418848811">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="172" y="129" width="1008" height="571" key="DiffContextDialog/72.29.1208.771@72.29.1208.771" timestamp="1602418848811" />
+    <state x="459" y="170" width="447" height="493" key="FileChooserDialogImpl" timestamp="1604178730085">
+      <screen x="72" y="27" width="1208" height="773" />
+    </state>
+    <state x="459" y="170" width="447" height="493" key="FileChooserDialogImpl/72.27.1208.773@72.27.1208.773" timestamp="1604178730085" />
+    <state x="459" y="172" width="424" height="491" key="FileChooserDialogImpl/72.29.1208.771@72.29.1208.771" timestamp="1602946189270" />
+    <state x="537" y="313" width="277" height="207" key="Github.ShareDialog" timestamp="1604178643559">
+      <screen x="72" y="27" width="1208" height="773" />
+    </state>
+    <state x="537" y="313" width="277" height="207" key="Github.ShareDialog/72.27.1208.773@72.27.1208.773" timestamp="1604178643559" />
+    <state x="537" y="314" width="277" height="207" key="Github.ShareDialog/72.29.1208.771@72.29.1208.771" timestamp="1602413426996" />
+    <state x="403" y="94" width="535" height="647" key="Github.UntrackedFilesDialog" timestamp="1602413461619">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="403" y="94" width="535" height="647" key="Github.UntrackedFilesDialog/72.29.1208.771@72.29.1208.771" timestamp="1602413461619" />
+    <state width="1162" height="282" key="GridCell.Tab.0.bottom" timestamp="1602946191116">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state width="1162" height="282" key="GridCell.Tab.0.bottom/72.29.1208.771@72.29.1208.771" timestamp="1602946191116" />
+    <state width="1162" height="282" key="GridCell.Tab.0.center" timestamp="1602946191116">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state width="1162" height="282" key="GridCell.Tab.0.center/72.29.1208.771@72.29.1208.771" timestamp="1602946191116" />
+    <state width="1162" height="282" key="GridCell.Tab.0.left" timestamp="1602946191115">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state width="1162" height="282" key="GridCell.Tab.0.left/72.29.1208.771@72.29.1208.771" timestamp="1602946191115" />
+    <state width="1162" height="282" key="GridCell.Tab.0.right" timestamp="1602946191116">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state width="1162" height="282" key="GridCell.Tab.0.right/72.29.1208.771@72.29.1208.771" timestamp="1602946191116" />
+    <state x="209" y="72" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1602416297579">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="209" y="72" width="924" height="691" key="Maven.ArtifactSearchDialog/72.29.1208.771@72.29.1208.771" timestamp="1602416297579" />
+    <state x="72" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1604178803465">
+      <screen x="72" y="27" width="1208" height="773" />
+    </state>
+    <state x="72" y="27" width="1022" height="737" key="SettingsEditor/72.27.1208.773@72.27.1208.773" timestamp="1604178803465" />
+    <state x="72" y="29" width="1024" height="771" key="SettingsEditor/72.29.1208.771@72.29.1208.771" timestamp="1602521336643" />
+    <state x="271" y="150" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602838939812">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="271" y="150" width="800" height="535" key="Vcs.Push.Dialog.v2/72.29.1208.771@72.29.1208.771" timestamp="1602838939812" />
+    <state x="447" y="329" width="447" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602418602812">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="447" y="329" width="447" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.29.1208.771@72.29.1208.771" timestamp="1602418602812" />
+    <state x="72" y="118" width="1208" height="599" key="new project wizard" timestamp="1602946066051">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="72" y="118" width="1208" height="599" key="new project wizard/72.29.1208.771@72.29.1208.771" timestamp="1602946066051" />
+    <state x="340" y="182" width="672" height="677" key="run.anything.popup" timestamp="1602441410603">
+      <screen x="72" y="29" width="1208" height="771" />
+    </state>
+    <state x="340" y="182" width="672" height="677" key="run.anything.popup/72.29.1208.771@72.29.1208.771" timestamp="1602441410603" />
+  </component>
+</project>
